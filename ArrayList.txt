@@ -1,0 +1,15 @@
+import java.util.*;  
+public class Arraylist {
+	public static void main(String args[]){  
+//creating a list
+		  ArrayList<String> list=new ArrayList<String>();  
+//		  Adding elements in the list
+		      list.add("Carrot");  
+		      list.add("Potato");   
+		      list.add("Tomato");  
+		      System.out.println(list);  
+		 }  
+		}  
+
+Output:
+[Carrot, Potato, Tomato]
