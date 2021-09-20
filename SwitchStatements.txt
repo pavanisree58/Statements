@@ -1,0 +1,51 @@
+public class SwitchStatement {
+	public static void main(String[] args) {  
+	    int number=20;  
+	      switch(number){  
+	   case 10: System.out.println("10");  
+	    break;  
+	    case 20: System.out.println("20");  
+	    break;  
+	    case 30: System.out.println("30");  
+	    break;  
+	    
+	    default:System.out.println(" 10, 20 or 30");  
+	    }  
+	}  
+}
+
+
+
+
+Output:
+20 
+
+public class ifstatement {
+	public static void main(String[] args) {    
+		int x = 10;    
+		int y = 12;    
+		if(x+y > 20) {    
+		System.out.println("It is greater than 20");    
+		}    
+		}      
+		}     
+Output:
+It is greater than 20
+
+public class ifelsestatement {
+	public static void main(String[] args) {  
+		int x = 10;  
+		int y = 12;  
+		if(x+y < 10) {  
+		System.out.println("It is less than 10");  
+		}  
+		else {  
+		System.out.println("It is greater than 20");  
+		}  
+		}  
+		}  
+
+
+Output:
+It is greater than 20
+
